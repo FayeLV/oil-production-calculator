@@ -43,3 +43,5 @@ No installation is required; simply open the `index.html` file to use the applic
 ## License
 
 Copyright © 2024 Racefrog LLC - All rights reserved.
+
+https://fayelv.github.io/oil-production-calculator
