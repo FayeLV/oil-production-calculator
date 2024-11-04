@@ -49,3 +49,9 @@ function resetFields() {
     document.getElementById("result").innerText = '';
     document.getElementById("sp").focus();
 }
+
+
+ function openVideo() {
+            const videoPath = 'demonstration.mp4';
+            window.open(videoPath, '_blank');
+        }
