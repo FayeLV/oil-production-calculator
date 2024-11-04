@@ -1,0 +1,101 @@
+
+@media (max-width: 768px) {
+  .side-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #f8f8f8;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 10;
+  }
+
+  .hamburger {
+    font-size: 4rem;
+    cursor: pointer;
+    display: block;
+  }
+
+  .container {
+    padding: 0 3rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .section__pic,
+  .about-pic { 
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+  }
+
+  .side-nav.active {
+    transform: translateX(0);
+    content: '✕';
+  }
+
+  .nav-links li {
+    margin: 1rem 0;
+  }
+
+  .profile_content {
+    flex-direction: column;
+  }
+
+  .about-me-content {
+    flex-wrap: wrap;
+  }
+
+  .project_boxes {
+    flex-direction: column;
+  }
+
+  .detail-container {
+    flex-direction: column;
+  }
+
+  .exprience,
+  .education {
+    width: 80%;
+  }
+
+  section {
+    height: fit-content;
+  }
+
+  .about-containers {
+    flex-direction: column;
+  }
+
+  .about-containers {
+    flex-direction: row;
+  }
+
+  .article-container {
+    flex-direction: column;
+  }
+
+  .contact_me {
+    text-align: center;
+    margin: auto;
+  }
+}
