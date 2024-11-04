@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Oil Production MCF Calculator is a web-based application designed to assist users in calculating the MCF (thousand cubic feet) result for oil field production. Users simply need to input SP (Production), DP (Depth), and a Coefficient, and click the calculate button to obtain the result.
+This client requested only basic functionality so that anyone can use it. This Oil Production MCF Calculator is a web-based application designed to help users calculate the MCF (thousand cubic feet) result for oil field production. Users simply need to input SP (Production), DP (Depth), and a Coefficient, then click the calculate button or Enter to get the result.
 
 ## Features
 
